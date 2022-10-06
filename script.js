@@ -12,6 +12,7 @@ navToggler.addEventListener("click", () => {
 
   // when open change max height & scroll height
   if (nav.classList.contains("open")) {
+    // max height equivalent to scroll height
     nav.style.maxHeight = nav.scrollHeight + "px";
   } else {
     // remove the style element
